@@ -1,0 +1,19 @@
+{
+  "name": "ssri",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_PATH=./src next dev",
+    "build": "NODE_PATH=./src next build",
+    "start": "NODE_PATH=./src next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "next": "9.4.2",
+    "next-purgecss": "^4.0.0",
+    "node-sass": "^4.14.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sass": "^1.26.5"
+  }
+}
