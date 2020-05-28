@@ -1,8 +1,11 @@
 .Main {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
+  .Canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
   .Text-logo {
     font-size: 30vw;
     color: white;

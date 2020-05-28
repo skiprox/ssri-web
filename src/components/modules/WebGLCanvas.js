@@ -142,6 +142,6 @@ export default function WebGLCanvas() {
     main();
   }, [main]);
   return (
-    <canvas ref={canvas} width="512" height="512" data-vert="shaders/vert.glsl" data-frag="shaders/frag.glsl" />
+    <canvas ref={canvas} className="Canvas" width="512" height="512" data-vert="shaders/vert.glsl" data-frag="shaders/frag.glsl" />
   )
 }
