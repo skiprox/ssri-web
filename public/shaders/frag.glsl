@@ -5,7 +5,8 @@ uniform float u_time;
 
 varying vec2 v_texcoord;
 
-vec3 colorOne = vec3(0.3, 0.2, 0.8);
+vec3 colorOne = vec3(0.2, 0.8, 0.8);
+vec3 colorTwo = vec3(0.15, 0.1, 0.5);
 
 #define TAU 6.28318530718
 #define THREE_PI 9.42477796077
@@ -31,7 +32,7 @@ void main() {
 	c /= float(MAX_ITER);
 	c = 1.17-pow(c, 1.4);
 	vec3 colour = vec3(pow(abs(c), 8.0)) * colorOne;
-    colour = clamp(colour + vec3(0.15, 0.1, 0.5), 0.0, 1.0);
+    colour = clamp(colour + colorTwo, 0.0, 1.0);
     
 	gl_FragColor = vec4(colour * 0.5, 1.0);
 	// gl_FragColor = vec4(1.0, 1.0, 1.0, 1.0);

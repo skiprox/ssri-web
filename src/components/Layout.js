@@ -14,11 +14,11 @@ export default function Layout({
         <link rel="icon" type="image/png" href="" sizes="16x16" />
         <link rel="icon" type="image/png" href="" sizes="32x32" />
         <link rel="icon" type="image/png" href="" sizes="96x96" />
-        <meta name="description" content="" />
+        <meta name="description" content="Surf Systems Regional Incorporated" />
         {/* Facebook */}
-        <meta name="og:title" content="" />
-        <meta property="og:url" content="" />
-        <meta property="og:description" content="" />
+        <meta name="og:title" content="Surf Systems Regional Incorporated" />
+        <meta property="og:url" content="http://ssri.network" />
+        <meta property="og:description" content="Everywhere surfing has already replaced the older sports" />
         <meta property="og:image" content="" />
         <meta property="og:image:width" content=""/>
         <meta property="og:image:height" content="" />
@@ -28,10 +28,9 @@ export default function Layout({
         <meta property="og:locale" content="en_US" />
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="" />
-        <meta name="twitter:url" content="" />
-        <meta name="twitter:title" content="" />
-        <meta name="twitter:description" content="" />
+        <meta name="twitter:site" content="http://ssri.network" />
+        <meta name="twitter:title" content="Surf Systems Regional Incorporated" />
+        <meta name="twitter:description" content="Everywhere surfing has already replaced the older sports" />
         <meta name="twitter:image" content="" />
         <meta name="twitter:image:alt" content="" />
       </Head>

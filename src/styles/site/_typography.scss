@@ -1,0 +1,12 @@
+.subheader {
+  font-family: 'data70', times;
+}
+.body-copy {
+  font-family: inconsolata, monospace, mono;
+  font-size: 2vw;
+  line-height: 1.25em;
+  font-weight: bold;
+  + .body-copy {
+    margin-top: 1.25em;
+  }
+}

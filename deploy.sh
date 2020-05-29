@@ -2,6 +2,11 @@
 #
 # Deploy to ssri.network with build
 #
+# To deploy without building
+# > ./deploy.sh
+# 
+# To build first, then deploy:
+# > ./deploy.sh -b
 
 # Build & export the site,
 # if we got the -b flag

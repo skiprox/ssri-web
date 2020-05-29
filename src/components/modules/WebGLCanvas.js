@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react';
 
-export default function WebGLCanvas() {
+export default function WebGLCanvas({className}) {
   const canvas = useRef(null);
 
   const resizeCanvas = () => {
@@ -142,6 +142,6 @@ export default function WebGLCanvas() {
     main();
   }, [main]);
   return (
-    <canvas ref={canvas} className="Canvas" width="512" height="512" data-vert="shaders/vert.glsl" data-frag="shaders/frag.glsl" />
+    <canvas ref={canvas} className={`Canvas ${className}`} width="512" height="512" data-vert="shaders/vert.glsl" data-frag="shaders/frag.glsl" />
   )
 }
