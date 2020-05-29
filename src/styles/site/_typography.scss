@@ -1,11 +1,18 @@
 .subheader {
   font-family: 'data70', times;
+  font-size: 2rem;
+  @media (min-width: 768px) {
+    font-size: 5vw;
+  }
 }
 .body-copy {
   font-family: inconsolata, monospace, mono;
-  font-size: 2vw;
+  font-size: 1.5rem;
   line-height: 1.25em;
   font-weight: bold;
+  @media (min-width: 768px) {
+    font-size: 2vw;
+  }
   + .body-copy {
     margin-top: 1.25em;
   }

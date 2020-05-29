@@ -12,7 +12,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    background-image: url('/images/bg.png');
+    background-image: url('/images/bg-black.png');
     background-size: cover;
     background-position: center center;
   }
@@ -38,7 +38,6 @@
     -webkit-text-stroke-color: #0610d9;
     -webkit-text-stroke-width: 0.0625rem;
     -webkit-font-smoothing: subpixel-antialiased;
-    font-size: 5vw;
     left: 0;
     &--top {
       top: 0;
